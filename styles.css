@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+.hero {
+  /* width: 720px; */
+  height: 350px;
+  background-image: url('images/vancouver-bg.jpg');
+  background-size: cover;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.hero-title {
+  margin-top: 100px;
+  background: #e0655eff;
+  padding: 5px 12px;
+  border-radius: 12px;
+  color: white;
+  margin-bottom: 25px;
+}
+
+.hero-p {
+  background-color: #f2885dff;
+  padding: 5px 28px;
+  border-radius: 12px;
+  font-size: 18px;
+  color: white;
+}
+
+.activites-section {
+  background: #4d608bff;
+  height: 350px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
