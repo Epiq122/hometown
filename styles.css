@@ -6,6 +6,8 @@
 body {
   font-family: 'Roboto', sans-serif;
   text-align: center;
+  width: 720px;
+  margin: 0 auto;
 }
 .activity-img {
   width: 150px;
@@ -13,7 +15,6 @@ body {
   border-radius: 50%;
 }
 .hero {
-  /* width: 720px; */
   height: 350px;
   background-image: url('images/vancouver-bg.jpg');
   background-size: cover;
@@ -40,6 +41,10 @@ body {
   font-size: 18px;
   color: white;
 }
+.info-p {
+  font-size: 13px;
+  font-style: italic;
+}
 
 .activites-section {
   background: linear-gradient(#545e79ff, #4d608bff);
@@ -50,13 +55,12 @@ body {
 }
 
 .profile-section {
-  width: 400px;
+  width: 720px;
+  height: 400px;
   color: white;
   background: black;
-  margin: 40px auto;
   display: flex;
-  padding: 0 10px 0 10px;
-  border-radius: 10px;
+  align-items: center;
 }
 .profile-img {
   width: 200px;
@@ -69,4 +73,18 @@ body {
 
 .profile-header {
   margin-bottom: 10px;
+}
+
+.activites-title {
+  color: white;
+  margin-bottom: 10px;
+}
+
+.profile-card {
+  margin: 0 auto;
+  display: flex;
+  padding: 0 10px 0 10px;
+  border-radius: 10px;
+  background: #ffa33bff;
+  width: 75%;
 }
